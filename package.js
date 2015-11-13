@@ -1,8 +1,8 @@
 Package.describe({
   summary: 'Accounts Templates styled for Materialize Css.',
-  version: '1.12.4',
-  name: 'useraccounts:materialize',
-  git: 'https://github.com/meteor-useraccounts/materialize.git',
+  version: '1.0.0',
+  name: 'armacryss:useraccounts-materialize',
+  git: 'https://github.com/Armacryss/materialize.git',
 });
 
 Package.on_use(function(api, where) {
@@ -15,6 +15,7 @@ Package.on_use(function(api, where) {
 
   api.use([
     'useraccounts:core',
+    'dapearce:material-icons'
   ], ['client', 'server']);
 
   // Requires all routing packages loads before this asking for weak dependencies.
@@ -70,6 +71,7 @@ Package.on_use(function(api, where) {
 Package.on_test(function(api) {
   api.use([
     'useraccounts:materialize',
+    'dapearce:material-icons',
     'useraccounts:core@1.12.4',
   ]);
 
