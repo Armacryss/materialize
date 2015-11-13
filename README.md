@@ -1,4 +1,4 @@
- #  FORK of [useraccounts:materialize](https://atmospherejs.com/useraccounts/materialize)
+#  FORK of [useraccounts:materialize](https://atmospherejs.com/useraccounts/materialize)
  
 This fork replace the default materializecss Icons with the meteor package [Meteor-Material-Icons](https://github.com/dapearce/meteor-material-icons) using [Material Design Icons from Google](https://materialdesignicons.com/).
 
